@@ -3,12 +3,13 @@
 ## Project Overview
 This project analyzes large-scale Uber ride data to extract insights, preprocess complex datasets, and build predictive models. The dataset includes trip details like timestamps, distances, passenger counts, and geographic info, providing a real-world case for big data handling, feature engineering, and time series modeling.
 
-An **interactive Streamlit app** was developed to visualize ride patterns, demand trends, and predictive outputs.
+An **interactive Streamlit app** was developed to visualize ride patterns, demand trends, and predictive outputs. Additionally, a **Gradient Boosting Regressor** is used to predict which areas taxis should go to in order to efficiently match ride demand.
 
 ---
 ## Interactive Streamlit App
 Explore ride patterns, demand trends, and predictive insights through the interactive app:  
 [View the Streamlit App](YOUR_STREAMLIT_APP_LINK)
+
 ## Workflow
 
 ---
@@ -35,6 +36,7 @@ Explore ride patterns, demand trends, and predictive insights through the intera
 - Tested regression models to predict ride demand and trip duration.
 - Tuned smoothing parameters and lag features for forecasting.
 - Evaluated models using MSE and R²; **Linear Regression** performed best.
+- Implemented a **Gradient Boosting Regressor** to predict optimal areas for taxis to meet high demand efficiently.
 
 ### 6. Evaluation & Insights
 - Evaluated models on unseen data for generalizability.
@@ -48,7 +50,7 @@ Explore ride patterns, demand trends, and predictive insights through the intera
 - **Big Data Processing:** Dask
 - **Visualization:** Matplotlib, Seaborn
 - **Web App:** Streamlit
-- **Modeling & Forecasting:** scikit-learn, regression models
+- **Modeling & Forecasting:** scikit-learn, regression models, Gradient Boosting Regressor
 
 ---
 
@@ -72,6 +74,7 @@ Explore ride patterns, demand trends, and predictive insights through the intera
 - Feature engineering tailored to temporal and spatial patterns.
 - Robust EDA revealing trends and anomalies.
 - Predictive modeling with actionable insights for operations.
+- Gradient Boosting Regressor used for taxi allocation to match demand.
 - Interactive dashboard for visual exploration of data and forecasts.
 
 ---
