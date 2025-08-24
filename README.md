@@ -54,11 +54,14 @@ Explore ride patterns, demand trends, and predictive insights through the intera
 
 ## Visualizations
 
+### Day-wise Pickup Trends
+<img src="week_trends.png" alt="Sample Pickup Locations" width="700"/>
+
 ### Sample Pickup Locations
-<img src="images/sample_pickup_locations.png" alt="Sample Pickup Locations" width="700"/>
+<img src="sample_pickup.png" alt="Sample Pickup Locations" width="700"/>
 
 ### Heatmap of Clustered Pickup Locations
-<img src="images/heatmap_clustered_locations.png" alt="Heatmap of Clustered Pickup Locations" width="700"/>
+<img src="pickup_heatmap.png" alt="Heatmap of Clustered Pickup Locations" width="700"/>
 
 
 ---
